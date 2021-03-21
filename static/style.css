@@ -1,0 +1,90 @@
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    border-bottom: 2px #645555 solid;
+}
+header img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+header a img{
+    border: none;
+}
+nav {
+    border-bottom: 2px #645555 solid;
+    padding-bottom: 3%;
+}
+#header-bottom{
+    margin: 5%;
+    border-bottom: 2px #645555 solid;
+}
+footer  {
+    bottom: 0;
+    padding: 10px; /* Поля вокруг текста */
+    color: #645555; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    text-align: center;
+}
+footer button a{
+     color: #645555;
+}
+footer button a:hover{
+    color: black !important;
+    transition: .6s;
+}
+
+ul li{
+    display: inline;
+    font-family: Crimson Regular;
+    font-weight: 500;
+    text-decoration-line: none;
+    font-size: larger;
+}
+ul.nav li a{
+    color: #645555 !important;
+}
+ul.nav li a:hover, ul.nav li a:active {
+    color: black !important;
+    transition: .6s;
+}
+#dabout{
+    text-align: center;
+    margin: 5%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+#dabout div{
+    display: inline-block;
+    white-space: pre-wrap;
+}
+#textdiv {
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+    color: #645555;
+    font-family: Crimson Regular;
+    font-weight: 500;
+}
+#kristi1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+#kristi2{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+}
+.colortext{
+    color: black;
+    font-weight: bold;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="{{ url_for( 'static', filename='style.css')}}">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js"></script>
+    <title>{% block title %}Novogrenko{% endblock %}</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <a class="nav-link active" href="/"><img src="/static/img/logo.png" alt="logo"></a>
+        </header>
+        <nav class="justify-content-center">
+            <ul class="nav nav-fill">
+                <li class="nav-item"><a class="nav-link active" href="#">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Kind words</a></li>
+            </ul>
+        </nav>
+        {% block pictures %}{% endblock %}
+        <div id="main">
+
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+     </div>
+    <footer class="justify-content-center">
+        <button type="button" class="btn btn-link"><a class="nav-link active" href="https://vk.com/knovogrenko" target="_blank"><i class="fab fa-vk"></i></a></button>
+        <button type="button" class="btn btn-link"><a class="nav-link active" href="https://www.instagram.com/_kristina_nov/" target="_blank"><i class="fab fa-instagram"></i></a></button>
+        <p>Copyright 2021 © Photo by Christina Novogrenko</p>
+    </footer>
+
+</body>
+</html>
