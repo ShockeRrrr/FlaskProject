@@ -18,16 +18,13 @@ nav {
     border-bottom: 2px #645555 solid;
     padding-bottom: 3%;
 }
-#header-bottom{
-    margin: 5%;
-    border-bottom: 2px #645555 solid;
-}
 footer  {
     bottom: 0;
     padding: 10px; /* Поля вокруг текста */
     color: #645555; /* Цвет текста */
     width: 100%; /* Ширина слоя */
     text-align: center;
+    border-top: 2px #645555 solid;
 }
 footer button a{
      color: #645555;
@@ -87,4 +84,30 @@ ul.nav li a:hover, ul.nav li a:active {
 .colortext{
     color: black;
     font-weight: bold;
+}
+
+ .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .slider__container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .slider__item {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .slider__item-container {
+      line-height: 250px;
+      font-size: 100px;
+      text-align: center;
+      height: 250px;
+      color: #fff;
+    }
+#header-bottom{
+    margin: 5px;
 }
