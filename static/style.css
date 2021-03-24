@@ -15,7 +15,7 @@ header a img{
     border: none;
 }
 nav {
-    border-bottom: 2px #645555 solid;
+    border-bottom: #645555 double;
     padding-bottom: 3%;
 }
 footer  {
@@ -109,5 +109,54 @@ ul.nav li a:hover, ul.nav li a:active {
       color: #fff;
     }
 #header-bottom{
-    margin: 5px;
+    padding: 15px;
+    border-bottom: #645555 double;
+
+
+}
+#hearly{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#text{
+    text-align: center;
+    padding: 5px;
+    word-wrap: break-word;
+    margin-left: auto;
+    margin-right: auto;
+    font-style: italic;
+    color: #645555;
+    font-family: Crimson Regular;
+    font-weight: 600;
+}
+
+#video{
+    padding: 10px;
+}
+
+#conta{
+    text-align: center;
+    padding: 5px;
+    word-wrap: break-word;
+    color: #645555;
+    font-family: Crimson Regular;
+    font-weight: 400;
+}
+#childconta{
+    font-family: Crimson Regular;
+    margin-left: auto;
+    margin-right: auto;
+}
+#childconta button a{
+     color: #645555;
+}
+#childconta button a:hover{
+    color: black !important;
+    transition: .6s;
+}
+#frm{
+    font-family: Crimson Regular;
+    margin: 10px;
+    color: #645555;
 }

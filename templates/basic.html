@@ -32,18 +32,19 @@ document.addEventListener('DOMContentLoaded', function() {
         </header>
         <nav class="justify-content-center">
             <ul class="nav nav-fill">
-                <li class="nav-item"><a class="nav-link active" href="#">Gallery</a></li>
-                <li class="nav-item"><a class="nav-link active" href="/about">About</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Contact</a></li>
-                <li class="nav-item"><a class="nav-link active" href="#">Kind words</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Галлерея</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/about">Обо мне</a></li>
+                <li class="nav-item"><a class="nav-link active" href="/contact">Контакты</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Отзывы</a></li>
             </ul>
         </nav>
+        <div id="ebalo">
         {% block pictures %}{% endblock %}
-        <div id="main">
-
-                {% block content %}{% endblock %}
-            </div>
         </div>
+        <div id="main">
+        {% block content %}{% endblock %}
+        </div>
+
      </div>
     <footer class="justify-content-center">
         <button type="button" class="btn btn-link"><a class="nav-link active" href="https://vk.com/knovogrenko" target="_blank"><i class="fab fa-vk"></i></a></button>
