@@ -1,0 +1,37 @@
+{% extends 'basic.html'%}
+
+{% block content %}
+<div class="row">
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe id="video" class="embed-responsive-item" width="1200" height="340" src="https://www.youtube.com/embed/QLKmAvUrQxk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</div>
+    <div id="conta" class="row">
+        <div id="childconta" class="col-md-6">
+            <h4>Со мной вы можете связаться:</h4>
+            <p>С помощью<button type="button" class="btn btn-link"><a class="nav-link active" href="https://vk.com/knovogrenko" target="_blank"><i class="fab fa-vk"></i></a></button></p>
+            <p>Или с помощью <button type="button" class="btn btn-link"><a class="nav-link active" href="https://www.instagram.com/_kristina_nov/" target="_blank"><i class="fab fa-instagram"></i></a></button></p>
+            <h5>Или воспользуйтесь формой ниже;)</h5>
+        </div>
+</div>
+
+<div class="container mt-5">
+    <form id="frm" method="POST">
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Имя">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Адрес электронной почты">
+            </div>
+            <div class="form-group">
+                 <input type="text" class="form-control" id="phone" placeholder="Номер телефона">
+            </div>
+            <div class="form-group">
+                <label for=message>Сообщение</label>
+                <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+             <input type="submit" class="btn btn-dark" value="Отправить">
+    </form>
+</div>
+
+{% endblock %}
